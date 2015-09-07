@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+     android:weightSum="100">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_weight="65"
+    android:weightSum="10"
+    android:orientation="vertical"
+    >
+      <Button
+          android:id="@+id/bGTGMap"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="See it on the Map" 
+           android:layout_weight="6.5"/>
+    
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3sp"
+            android:layout_marginBottom="1sp"
+            android:layout_weight="3.5"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+             <ScrollView
+                android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_weight="20">
+      <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_weight="20"
+        android:orientation="vertical"
+        android:weightSum="10" >
+         
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_weight="5"
+          android:text="Floor:"
+            android:shadowColor="#00ccff"  
+        android:shadowRadius="1.5"  
+        android:shadowDx="1"  
+        android:shadowDy="1"
+          android:textAppearance="?android:attr/textAppearanceLarge" />
+       
+      <TextView
+          android:id="@+id/tvGFloor"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="Near:"
+            android:shadowColor="#00ccff"  
+        android:shadowRadius="1.5"  
+        android:shadowDx="1"  
+        android:shadowDy="1"
+          android:layout_weight="5"
+           android:layout_marginTop="2sp"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+       </LinearLayout>
+       </ScrollView>
+      <Button
+          android:id="@+id/bVNG"
+          style="?android:attr/buttonStyleSmall"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_alignBottom="@+id/tvGFloor"
+          android:layout_alignParentRight="true"
+          android:layout_marginBottom="14dp"
+          android:layout_weight="80"
+          android:background="@drawable/custom" />
+      </LinearLayout>
+         </LinearLayout>
+         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_weight="35"
+    android:orientation="vertical"
+    android:background="#333333">
+     <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:weightSum="100"
+    android:orientation="horizontal"
+    android:layout_margin="1sp"
+    android:layout_marginBottom="3sp">
+       <Button
+          android:id="@+id/bIIE"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Faculty Entrance" 
+          android:layout_weight="33.33"/>
+      <Button
+          android:id="@+id/bIE"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          
+          android:text="Primary Entrance"
+          android:layout_weight="33.33" />
+
+       <Button
+           android:id="@+id/bParkE"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Entrance Via Parking"
+           android:layout_weight="33.33" />
+  </LinearLayout>
+      <ListView
+          android:id="@+id/listView1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/bParkE" >
+
+      </ListView>
+
+      </LinearLayout>
+
+      
+     
+</LinearLayout>

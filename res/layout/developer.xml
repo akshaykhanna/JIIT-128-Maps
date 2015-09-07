@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5B5C59" >
+    
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    android:text="Developer:Akshay Khanna and Maps dsigned by: Kapil Verma"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_margin="20dp"
+  android:textSize="20dp" />
+
+    <TextView
+    android:id="@+id/textView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+   android:gravity="center"
+    android:text="For more such cool stuff logon on to www.brainbolts.in \n Hope you will like our effort and again thanks for downloading. 8-)" 
+    android:autoLink="web"
+    />
+    
+
+</LinearLayout>

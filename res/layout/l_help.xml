@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+   >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:gravity="center" 
+             android:orientation="vertical"
+             android:background="#252725">
+           
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp" 
+                android:text="HELP"
+                 android:shadowColor="#00ccff"  
+        android:shadowRadius="1.5"  
+        android:shadowDx="1"  
+        android:shadowDy="1"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+              <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12sp"
+                android:text="About"
+                 android:gravity="left"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+               <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp" 
+                android:layout_gravity="center"
+                android:padding="2sp"
+                android:text="This app is a Navigation base Maps of  Jaypee Institute Information and Technolgy Sector128.\n Our aim behind this to is aid JIITians and probalby the new lot(Juniors) to  navigate our college easily and quickly and prevent them to be  lost in  the lost world.\n Since we are new to this arena so there may be lots of bugs and glitches. Please feel free to tell,comment and rate us whatever you feel about it.\n Hope you like our effort and thanks for downloading. 8-)"/>
+            
+               <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12sp"
+                android:text="Features"
+                 android:gravity="left"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+               <TextView
+                   android:id="@+id/textView1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="5sp"
+                   android:padding="2sp"
+                   android:text="Map: Floor base map of your destination. Map must  be viewd keeping its head towards playground and  bottom towards entrance.\nFloor finder: States on which floor is your destination\n Near By: Tells adjacent places.\n Navigation: Step by step nvigation to your destination from all the stairs or entrance.\n Voice Navigation: Listen to step by step naivgation by pressing speaker(speak button)." />
+
+             <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12sp"
+                android:text="Navigation"
+                 android:gravity="left"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+                <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:layout_gravity="center"
+                android:padding="2sp"
+                android:text="The navigation is written down keeping in mind that the user will first reach to destination floor using any stair and etrance.\n Then from that particular stair or entrance step  by step navgation is given to his destination.\n The navigation is assisted by voice which can intiated by pressing the speak button.">
+                  
+              </TextView>
+             
+             <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12sp"
+                android:text="Navigation Buttons"
+                 android:gravity="left"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+              <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:layout_gravity="center"
+                android:padding="2sp"
+                android:text=" Stairs A: Stairs near Saraswati statue or on extreme left from entrance.\n Stairs B: To the left of Stairs A and on right of faculty entrance  for first floor and left of  lift for second floor.\n Stairs C: To right of parking entrance for first floor and the right ECE faculty for second floor.\n Stairs D: Extreme right near washroom and new cafe for first and then to second floor.\n Primary Entrance: Main entrance for students opposite to playgroud entrance, near LRC and Annapurna.\n Faculty Entrance:Secondary entrance restricted to faculty only, near Lift and stairs to first floor.\n Entrance Via Parking: Entrance from where  one can enter college via parking. Its near stairs to first floor and LRC Entrance. "
+                 />
+               
+               <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12sp"
+                android:text="Consideration"
+                 android:gravity="left"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+               
+               <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5sp"
+                android:padding="2sp"
+                android:text="ECA lab and BEDC lab are both same.\n Washroom on any floor are on the extreme corners.\n Abbrevation:- LT(Lecture), TR(Tutorial), CR(Classroom), LRC(Learning Resource Center), Cl(Computer Lab) and MP hall(Multi Purpose hall) "/>
+              
+        </LinearLayout>
+    </ScrollView>
+        
+</LinearLayout>

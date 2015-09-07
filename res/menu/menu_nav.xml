@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <item
+        android:id="@+id/help"
+        
+        android:title="Help"
+        android:icon="@drawable/help"/>
+  
+    
+   <item
+        android:id="@+id/guide"
+        android:title="Intro Guide"
+        android:icon="@drawable/developer"/>
+    
+ <item
+        android:id="@+id/Exit"
+        
+        android:title="Exit"
+          android:icon="@drawable/exit"/>
+    
+</menu>

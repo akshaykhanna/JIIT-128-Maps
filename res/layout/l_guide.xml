@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:weightSum="100" 
+   >
+    
+    
+     <ScrollView
+         android:id="@+id/scrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" 
+         android:layout_weight="20">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical" 
+              android:layout_weight="20">
+             
+              <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    android:text=""
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_margin="20dp"
+  android:textSize="22dp" 
+  android:id="@+id/tvGuideHead"/>
+             
+                    <TextView
+          
+    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+   android:gravity="center"
+    android:textSize="15dp"
+      android:layout_marginBottom="20dp"
+    android:id="@+id/tvGuidePara"/>
+         </LinearLayout>
+     </ScrollView>
+     
+
+      
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100"
+   
+    android:layout_weight="80">
+
+     <Button
+         android:id="@+id/bGB"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="50"
+          android:background="@drawable/back"/>
+
+     <Button
+         android:id="@+id/bGN"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+       
+         android:background="@drawable/next"
+          android:layout_weight="50"/>
+     </LinearLayout>
+
+    
+
+</LinearLayout>

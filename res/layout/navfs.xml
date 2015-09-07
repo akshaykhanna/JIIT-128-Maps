@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+     android:weightSum="100">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_weight="65"
+    android:weightSum="10"
+    android:orientation="vertical">
+    
+        
+    <Button
+        android:id="@+id/bGoToMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+          android:text="See On the Map" 
+          
+           android:layout_weight="6"/>
+
+    
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3sp"
+            android:layout_marginBottom="1sp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+            <ScrollView
+                android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_weight="20">
+            <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:layout_weight="20"
+        
+        android:orientation="vertical"
+        android:weightSum="10" >
+        <TextView
+            android:id="@+id/tvCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5sp"
+            android:layout_weight="5"
+            android:text="Floor:"
+              android:shadowColor="#00ccff"  
+        android:shadowRadius="1.5"  
+        android:shadowDx="1"  
+        android:shadowDy="1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/tvNB"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5sp"
+                android:layout_weight="5"
+                android:text="Near:"
+                  android:shadowColor="#00ccff"  
+        android:shadowRadius="1.5"  
+        android:shadowDx="1"  
+        android:shadowDy="1"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+              </LinearLayout>
+      </ScrollView>            <Button
+                android:id="@+id/bVoiceNav"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="80"
+                
+                android:background="@drawable/custom" />
+        
+    </LinearLayout>
+
+       </LinearLayout>
+       
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_weight="35"
+    android:orientation="vertical"
+    android:background="#333333">
+     <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:weightSum="100"
+    android:orientation="horizontal"
+    android:layout_margin="1sp"
+    android:layout_marginBottom="3sp">
+    <Button
+        android:id="@+id/bStairsA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stairs A" 
+         android:layout_weight="25"/>
+
+    <Button
+        android:id="@+id/bStairsB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stairs B"
+        android:layout_weight="25" />
+
+    <Button
+        android:id="@+id/bStairsC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stairs C" 
+        android:layout_weight="25"/>
+
+    <Button
+        android:id="@+id/bStairsD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stairs D"
+        android:layout_weight="25" />
+</LinearLayout>
+
+    <ListView
+        android:id="@+id/lvRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bStairsA" >
+    </ListView>
+</LinearLayout>
+ 
+
+</LinearLayout>
